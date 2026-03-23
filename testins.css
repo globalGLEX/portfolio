@@ -1,0 +1,92 @@
+body {
+    background: #111;
+    color: aquamarine;
+    /* background-image:  url(bg.jpg); */
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+#planets {
+    background-color: #18ec3c;
+    z-index: 100;
+}
+.swrap {
+   
+    background: #111;
+  background: linear-gradient(to bottom, #a551f3,  #eeaf39, #111);
+  
+     width: 100%;
+    height: 3000px;
+    position: relative;
+    
+    
+  
+   
+    
+}
+.lightshow {
+    background-color: black;
+    margin-left: 100px;
+    top:0;
+    height: 1700px;
+    width: 300px;
+    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
+  transform: rotateY(-25deg) translateZ(-100px) scale(0.7);
+  position: sticky;
+}
+.barLightL {
+    width: 2%;
+    /* background-color: #fd0404; */
+    height: 8px;
+    float: left;
+    margin-top: -0px;
+    animation-name: blink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+    
+
+}
+.barLightR {
+    width: 2%;
+    background-color: #fd0404;
+    height: 8px;
+    float: right;
+    margin-top: -0px;
+    animation-name: blink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+/* .barFiller {
+    width: 80%;
+    background-color: #057c23;
+    height: 20px;
+    
+} */
+.bar1 {
+    width: 100%;
+    background-color: #222;
+    height: 8px;
+    opacity: 0.4;
+   /*  animation: side2side 2.9s ease-out 1s 500; */
+    /* animation-delay: 0.5s; */
+  
+    
+    
+
+    
+}
+.bar2 {
+    width: 100%;
+    background-color: #222;
+    height: 8px;
+ 
+    
+    
+
+}

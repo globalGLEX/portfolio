@@ -1,0 +1,321 @@
+<!DOCTYPE html5>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--         <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+ -->	<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="folio2.css" />
+		<meta name="viewport" content="width=device-width" />
+		<title>£folio2</title>
+	</head>
+    
+    
+	<body>
+        
+        
+       
+
+		<div class="swrap">
+            
+		<div class="lightshow">
+			<!-- <div class="mask1">ASD</div> -->
+			<div class="barTop">
+                <div class="barLightL"> </div>
+               <!--  <div class="barFiller"> </div> -->
+                <div class="barLightR"> </div>
+            </div>
+			<div class="bar2"></div>
+            <div class="bar1"></div>
+            
+            <div class="bar1"></div>
+            
+            <div class="bar1"></div>
+            
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+        
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="barLightL"> </div>
+            <!--  <div class="barFiller"> </div> -->
+             <div class="barLightR"> </div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar1"></div>
+            
+
+
+
+		</div>
+        <div class="shade"></div>
+        <div class="content">
+            <div class="introduction">
+                <div class="introWrapper">
+                
+                <h1>Good to see you.</h1>
+                
+                <p>The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based</p>
+                <p>github link</p>
+                <p>Cursor planets : github</p>
+                
+                </div>
+            </div>
+            <div class="sites">
+                <div class="card">
+                    <img src="sparks3.png" alt="Sparks in THREE.js">
+                    <div class="txtWrapper">
+                    <h2>Sparks</h2>
+                    <p>JS sparks using THREE.js</p>
+                    <p>JS sparks using THREE.js</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="fruits1.png" alt="Sparks in THREE.js">
+                    <div class="txtWrapper">
+                        <h2>Sparks</h2>
+                    <p>JS sparks using THREE.js</p>
+                    <p>JS sparks using THREE.js</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="bad1.png" alt="Sparks in THREE.js">
+                    <div class="txtWrapper">
+                        <h2>Sparks</h2>
+                    <p>JS sparks using THREE.js</p>
+                    <p>JS sparks using THREE.js</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="avds_overview2-min.png" alt="Sparks in THREE.js">
+                    <div class="txtWrapper">
+                    <p>Sparks</p>
+                    <p>JS sparks using THREE.js</p>
+                    <p>JS sparks using THREE.js</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sparks3.png" alt="Sparks in THREE.js">
+                    <div class="txtWrapper">
+                        <h2>Sparks</h2>
+                    <p>JS sparks using THREE.js</p>
+                    <p>JS sparks using THREE.js</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+	</body>
+    
+    
+    
+    <script>
+        const bars = document.querySelectorAll(".bar1");
+        const lights = document.querySelectorAll(".barLightL, .barLightR");   
+        const colors = ["cyan", "red", "yellow", "orange", "white", "linear-gradient(to right, white 50%, 50%, fuchsia)", "lime", "deepskyblue", "linear-gradient(to right, white 50%, 50%, gold)", "papayawhip", "springgreen"];
+        console.log(bars);
+            
+      /*   for (let i = 0; i < bars.length; i++) {   */ 
+            /* bars[i].style['background']  = 'red'; */
+
+        /* while  {
+            lights[0].style['background']  = 'black';
+            setTimeout(() => {
+                lights[0].style['background']  = 'red';
+            }, 1000);
+        } */
+    const firstFunc =() => {
+        
+            bars.forEach((element,i) => {
+            setTimeout(() => {
+                bars[i].style['background']  = "linear-gradient(to right, white 50%, 50%, turquoise)";
+            }, i*50);
+           
+        });
+        
+    
+    }
+    const secondFunc = () => {
+        setInterval(() => {
+            let currentColor = colors[0];
+            let newColor = colors[Math.round(Math.random() * (10 - 0) + 0)];
+           /*  if (newColor == currentColor){
+                currentColor = colors[Math.round(Math.random() * (5 - 0) + 0)];
+            } else {
+                currentColor == newColor;
+            } */
+            bars.forEach((element,i) => {
+                
+                setTimeout(() => {
+                    /* bars[i].style['background']  = colors[Math.round(Math.random() * (5 - 0) + 0)]; */
+                    /* bars[i].style['background']  = "cyan"; */
+                    
+                    bars[i].style['background']  = newColor;
+
+                }, i*50);
+                
+            }, 500);
+
+        }, 7000);
+        
+       
+    }  
+ /*    const show = async () => {
+        console.log("show start")
+        await firstFunc();
+        console.log("func done?")
+        secondFunc();
+    }  
+    show();
+            */
+       
+        /* } */
+    
+   /*  firstFunc();
+    secondFunc(); */
+/*     for (let i = 0; i < 9; i++) {
+        firstFunc();
+        secondFunc();
+}   */
+firstFunc();
+secondFunc();
+/* setInterval(() => {
+    
+    secondFunc();
+        }, 1000); */
+    
+    </script>
+
+</html>

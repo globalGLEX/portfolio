@@ -1,0 +1,334 @@
+body {
+    background: #111;
+    color: aquamarine;
+    /* background-image:  url(bg.jpg); */
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+#planets {
+    background-color: #18ec3c;
+    z-index: 100;
+}
+.swrap {
+    perspective: 300px;/*was 300*/
+    perspective-origin: left 85%;
+    background: #111;
+  background: linear-gradient(to bottom, #a551f3,  #eeaf39, #111);
+  
+     width: 100%;
+    height: 70%;
+    position: relative;
+    
+    
+  
+   
+    
+}
+.lightshow {
+    background-color: transparent;
+    margin-left: 100px;
+    top: 0;
+    height: 700px;
+    width: 300px;
+    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
+  transform: rotateY(-25deg) translateZ(-100px) scale(0.7);
+  position: fixed;
+  animation: fadeInOut 4s 1;
+  
+  
+  
+}
+@media screen and (max-width: 1300px){
+    .lightshow {
+    margin-left: 0px;
+    }
+}
+@media screen and (max-width: 800px){
+    .lightshow {
+    display: none;
+    }
+}
+@keyframes fadeInOut {
+
+	0% {
+	  
+	  opacity: 0.2;
+	  
+	}
+  
+	60% {
+	  
+	  opacity: 0;
+	}
+    62% {
+	  
+        opacity: 0.2;
+      }
+	95% {
+	  
+		opacity: 0.2;
+	  }
+	99% {
+	  
+		opacity: 0;
+	}
+	
+
+	100% {
+	  
+		opacity: 0.7;
+	  }
+  }
+/* .lightshow p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8em;
+    position: absolute;
+    margin-top: 0em;
+    background: linear-gradient(transparent, #4da3aa);
+    color: transparent;
+ 
+    -webkit-text-stroke: 5px rgb(8, 6, 6);
+} */
+ .shade {
+    background: linear-gradient(to top, #3b3b3b, #bead98);
+    height: 1100px; 
+    width: 300px;
+    transform: rotateY(25deg) translateZ(-100px) scale(0.7);
+    position: fixed;
+    margin-left: 375px;
+    margin-top: -60px;
+    animation: fadeInOut 4s 1;
+    opacity: 0.8;
+    color: #fff;
+ 
+
+ }
+ @media screen and (max-width: 1300px){
+    .shade {
+    margin-left: 275px;
+    }
+}
+@media screen and (max-width: 800px){
+    .shade {
+    display: none;
+    }
+}
+.mask1 {
+   /*  background: url(bg.jpg);
+    background-position: center center; */
+    position: absolute;
+    margin-top: 0em;
+        z-index: 2;
+        width: 300px;
+        height: 250px;
+       
+    
+}
+/* .lightshow:first-of-type {
+    mask-image: url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg");
+  
+} */
+.barLightL {
+    width: 2%;
+    /* background-color: #fd0404; */
+    height: 8px;
+    float: left;
+    margin-top: -0px;
+    animation-name: blink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+    
+
+}
+.barLightR {
+    width: 2%;
+    background-color: #fd0404;
+    height: 8px;
+    float: right;
+    margin-top: -0px;
+    animation-name: blink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+/* .barFiller {
+    width: 80%;
+    background-color: #057c23;
+    height: 20px;
+    
+} */
+.bar1 {
+    width: 100%;
+    background-color: #222;
+    height: 8px;
+    opacity: 0.4;
+   /*  animation: side2side 2.9s ease-out 1s 500; */
+    /* animation-delay: 0.5s; */
+  
+    
+    
+
+    
+}
+.bar2 {
+    width: 100%;
+    background-color: #222;
+    height: 8px;
+ 
+    
+    
+
+}
+.filler {
+    width: 100%;
+    background-color: #666;
+    height: 50px;
+    border: #00eeee solid 1px;
+    
+}
+
+
+
+.content {
+    width: 70%;
+    height: auto;
+   /*  background: linear-gradient(to bottom, #05cce6, #999); */
+   background-color: transparent;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 130px;
+    right: 0;
+   
+   
+}
+@media screen and (max-width: 800px){
+    .content {
+        width: 100%;
+    }
+}
+.introduction {
+    width: 90%;
+    height: auto;
+    /* background: linear-gradient(to top, #05cce6, #111); */
+    background: #ffffff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    margin-left: 5%;
+    transform: rotateZ(-0deg);
+    color: #111;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    
+   /*  background: linear-gradient(to right, #fff, #111); */
+     
+}
+.introduction .bar1 {
+    height: 1px;
+}
+.introWrapper {
+    
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.sites {
+ width: 90%;
+ height: 2000px;
+ background-color: transparent;
+ margin-left: 5%;
+ 
+
+}
+.card{
+ width: 100%;
+ height: 350px;
+ background-color: transparent;
+ margin-top: 50px;
+ color: #111;
+ display: flex;
+ flex-direction: row;
+ border-bottom-right-radius: 1em;
+
+/*  border: 1px #00eeee solid; */
+
+
+ 
+ 
+ 
+}
+
+.card img{
+    height: 350px;
+    border-top-left-radius: 1em;
+ 
+
+    
+}
+.card:hover{
+    scale: 1.05;
+    cursor: pointer;
+   
+    
+}
+.txtWrapper{
+    position: relative;
+    margin-left: 1em;
+    padding: 1em;
+    background-color: #ffffff;
+    width: 80%;
+    margin-right: 0px;
+    border-bottom-right-radius: 1em;
+  /*   border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em; */
+}
+
+
+
+
+
+@keyframes blink {
+    0% { 
+        background-color: #444;
+       /*  top: 50%;
+        left: 45%; */
+    }
+
+    80% { 
+        background-color: #444;
+    }
+    100% {
+        background-color: red;
+    }
+}
+@keyframes bounce {
+    0% { 
+        background-color: #444;
+       /*  top: 50%;
+        left: 45%; */
+    }
+    50% { 
+        background-color: rgb(74, 247, 189);
+    }
+    100% {
+        background-color: #444;
+    }
+}
+@keyframes side2side {
+    0% { 
+        background: linear-gradient(to left, #111, #111);
+       /*  top: 50%;
+        left: 45%; */
+    }
+    50% { 
+        background: linear-gradient(to left,#111 , #14edf5);
+    }
+    100% {
+        background: linear-gradient(to left,#1dc2df, #18ec3c);
+    }
+}
