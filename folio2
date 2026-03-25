@@ -12,12 +12,8 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>£folio2</title>
 	</head>
-    
-    
+      
 	<body>
-        
-        
-       
 
 		<div class="swrap">
             
@@ -30,9 +26,7 @@
             </div>
 			<div class="bar2"></div>
             <div class="bar1"></div>
-            
             <div class="bar1"></div>
-            
             <div class="bar1"></div>
             
             <div class="bar1"></div>
@@ -175,8 +169,6 @@
             <div class="bar1"></div>
             
 
-
-
 		</div>
         <div class="shade"></div>
         <div class="content">
@@ -185,7 +177,7 @@
                 
                 <h1>Good to see you.</h1>
                 
-                <p>The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based</p>
+                <p>Will use this page as a basis for a new better designed one</p>
                 <p>github link</p>
                 <p>Cursor planets : github</p>
                 
