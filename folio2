@@ -229,8 +229,134 @@
         </div>
     </div>
     
+    <canvas id="planets" width="250" height="250" style="transform:rotateZ(-35deg);">
+        <script>
+      
+          const ctx = document.getElementById("planets").getContext("2d");
+          const ctx2 = document.getElementById("planets").getContext("2d");
+          const ctx3 = document.getElementById("planets").getContext("2d");
+          //ctx3.rotate(-0.4);
+              console.log(ctx)   
+          var w = planets.width;
+          var h = planets.height;
+      
+          var dd = 1; //some speed var
+          var dd2 = 1;
+          var dd3 = 1;
+          var angle = 0;// starting position in the orbit
+          var angle2 = 90;
+          var angle3 = 45;
+      
+          var cx = 110; //position on canvas..100
+          var cy = 40;//130 90
+          var cx2 = 100; //x100y130these
+          var cy2 = 50;
+          var cx3 = 100;
+          var cy3 = 50;
+      
+          var radius = 20; //orbit radius 
+          var radius2 = 25;
+          var radius3 = 18;
+      
+      
+      console.log(radius3)
+                  
+                  async function draw(x,y,x2,y2,x3,y3) {
+      
+
+                      const img = new Image();
+                      const img2 = new Image();
+                      const img3 = new Image();
+                    
+                      img.src = "neptune.png";
+                      img2.src = "saturn.png";
+                      img3.src = "uranus.png";
+                      const array1 = [img, img2, img3];
+                    
+                   // Wait for all images to be loaded: rewritten the promise part
+                   await Promise.all(
+                        [img, img2, img3].map((image) => 
+                        new Promise((resolve) => image.addEventListener("load", resolve))
+                        )
+                    );
+           
+
+                     ctx3.clearRect(0, 0, w, h);
+                     ctx3.drawImage(img2, x - 50 / 2, y - 30 / 2, 43, 28) //last 2 width n height
+                    // ctx3.drawImage(img2, x - 50 / 2, y - 30 / 2, 43, 28)
+                    ctx3.drawImage(img, x2 - 50 / 2, y2 - 30 / 2, 25, 25)
+                     ctx3.drawImage(img3, x3 - 50 / 2, y3 - 30 / 2, 25, 25)
+                    
+      
+       
+   }
+
+        onmousemove = function(e){
+             var can = document.getElementById('planets');
+            can.style.marginLeft = -40 + e.clientX + 'px';
+            can.style.marginTop = -45 + e.clientY + 'px';
+                // can.style.backgroundColor = 'rgb(' + e.clientX + ', 200, 100)';
+      
+             console.log("mouse location:", e.clientX, e.clientY)
+            }
+                         
+       var fps = 30; //60
+      
+      window.requestAnimFrame = (function (callback) {
+          return window.requestAnimationFrame || 
+          window.webkitRequestAnimationFrame || 
+          window.mozRequestAnimationFrame || 
+          window.oRequestAnimationFrame || 
+          window.msRequestAnimationFrame || 
+          function (callback) {
+            console.log("in reqanimframe") 
+              window.setTimeout(callback, 1000 / fps);
+          };
+      })();
+      
+      
+      function animate() {
+          setTimeout(function () {
+              requestAnimFrame(animate);
+      
+              // increase the angle of rotation
+              angle += Math.acos(1-Math.pow(dd2/radius,2)/2);
+              angle2 += Math.acos(1-Math.pow(dd/radius,2)/2);
+              angle3 += Math.acos(1-Math.pow(dd3/radius,2)/2);
+      //console.log(angle3) runs
+              // calculate the new ball.x / ball.y
+              var newX = cx + radius * 2.5 * Math.cos(angle);
+              var newY = cy + radius * Math.sin(angle);
+              var newX2 = cx2 + radius2 * 2.5 * Math.cos(angle2);
+              var newY2 = cy2 + radius2 * Math.sin(angle2);
+              var newX3 = cx3 + radius3 * 2.5 * Math.cos(angle3);
+              var newY3 = cy3 + radius3 * Math.sin(angle3);
+      
+             
+              // draw
+              draw(newX, newY, newX2, newY2, newX3, newY3);
+                
+               //draw the centerpoint- orbit line, optional
+             /*  ctx3.beginPath();
+               ctx3.arc(cx, cy, radius, 0, Math.PI * 2, false);
+              ctx3.closePath();
+               ctx3.stroke(); */
+      
+          }, 1000 / fps);
+      }
+      animate();
+      
+          
+          
+              </script>
+      
+             
+          </canvas>
+
 	</body>
     
+  
+      
     
     
     <script>
