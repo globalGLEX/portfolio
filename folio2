@@ -17,160 +17,43 @@
 
 		<div class="swrap">
             
-		<div class="lightshow">
+		<div class="lightshow" id="lightshow">
 			<!-- <div class="mask1">ASD</div> -->
 			<div class="barTop">
                 <div class="barLightL"> </div>
                <!--  <div class="barFiller"> </div> -->
                 <div class="barLightR"> </div>
             </div>
-			<div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar1"></div>
-            <div class="bar1"></div>
-            
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-        
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
+            <script>for (let i = 0; i < 40; i++) {
+                const container = document.getElementById('lightshow');
+                container.innerHTML += '<div class="bar1"></div>';
+              }</script>
+	
             <div class="barLightL"> </div>
             <!--  <div class="barFiller"> </div> -->
              <div class="barLightR"> </div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar1"></div>
-            
+             <script>
+             const container = document.getElementById('lightshow');
+             for (let i = 0; i < 35; i++) {
+                
+                container.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
+              }
+              container.innerHTML += '<div class="bar3"><p>Testing some screens</p><p>Scroll down</p></div>';
+              </script>
+ 
+
 
 		</div>
-        <div class="shade"></div>
+        <div class="shade" id="shade">
+            <script>for (let i = 0; i < 40; i++) {
+                const container = document.getElementById('shade');
+                container.innerHTML += '<div class="bar1"></div>';
+              }</script>
+             <script>for (let i = 0; i < 35; i++) {
+                const container = document.getElementById('shade');
+                container.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
+              }</script>
+        </div>
         <div class="content">
             <div class="introduction">
                 <div class="introWrapper">
@@ -297,7 +180,7 @@
             can.style.marginTop = -45 + e.clientY + 'px';
                 // can.style.backgroundColor = 'rgb(' + e.clientX + ', 200, 100)';
       
-             console.log("mouse location:", e.clientX, e.clientY)
+             //console.log("mouse location:", e.clientX, e.clientY)
             }
                          
        var fps = 30; //60
