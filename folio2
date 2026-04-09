@@ -14,7 +14,9 @@
 	</head>
       
 	<body>
-
+        <div id="big-text-wrap">
+            <div id="big-text">Big Text about one sentence long</div>
+        </div>
 		<div class="swrap">
             
 		<div class="lightshow" id="lightshow">
@@ -34,11 +36,11 @@
              <div class="barLightR"> </div>
              <script>
              const container = document.getElementById('lightshow');
-             for (let i = 0; i < 35; i++) {
+             for (let i = 0; i < 75; i++) {
                 
                 container.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
               }
-              container.innerHTML += '<div class="bar3"><p>Testing some screens</p><p>Scroll down</p></div>';
+              //container.innerHTML += '<div class="bar3"><p>Testing some screens</p><p>Scroll down</p></div>';
               </script>
  
 
@@ -49,13 +51,27 @@
                 const container = document.getElementById('shade');
                 container.innerHTML += '<div class="bar1"></div>';
               }</script>
-             <script>for (let i = 0; i < 35; i++) {
+             <script>for (let i = 0; i < 75; i++) {
                 const container = document.getElementById('shade');
                 container.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
               }</script>
         </div>
-        <div class="content">
-            <div class="introduction">
+        <!-- <script>
+            window.addEventListener('scroll', () => {
+                const div = document.getElementById('introduction');
+                const div2 = document.getElementById('content');
+                if (window.scrollY > 200) {  // change 300 to your x pixels
+                    div2.style.opacity = '1';
+                } else if (window.scrollY > 100){
+                    div.style.opacity = '1';
+                }else{
+                    div.style.opacity = '0';
+                    div2.style.opacity = '0';
+                }
+                });
+        </script> -->
+        <div id="content">
+            <div id="introduction">
                 <div class="introWrapper">
                 
                 <h1>Good to see you.</h1>
@@ -227,7 +243,7 @@
       
           }, 1000 / fps);
       }
-      animate();
+      //animate();
       
           
           
@@ -310,7 +326,7 @@
         firstFunc();
         secondFunc();
 }   */
-firstFunc();
+firstFunc(); 
 secondFunc();
 /* setInterval(() => {
     
