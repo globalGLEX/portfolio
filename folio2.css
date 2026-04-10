@@ -1,5 +1,5 @@
 body {
-    background: #111;
+    background: #09ebd4;
     color: aquamarine;
     /* background-image:  url(bg.jpg); */
     font-family: "Oxanium", sans-serif;
@@ -16,6 +16,33 @@ body {
     background-color: rgba(255, 255, 255, 0);
     z-index: 100;
 }
+#logo{
+    margin-left: 540px;
+    top: -40px;
+    height: 100px;
+    width: 200px;
+    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
+  transform: rotateY(-25deg) translateZ(-50px) translatex(-210px) scale(0.7);
+  position: fixed;
+    font-size: 2em;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    color: #fff;
+}
+#txt1{
+    color:white;
+    text-shadow: 2px 2px 3px black;
+}
+#txt2{
+    color:white;
+    text-shadow: 2px 2px 3px black;
+}
+#txt3{
+    color:white;
+    text-shadow: 2px 2px 3px black;
+}
 #big-text-wrap{
   
    position: absolute;
@@ -28,30 +55,89 @@ body {
 }
 #big-text{
     margin-left: 540px;
-    top: 0;
-    height: 700px;
-    width: 500px;
+    top: 0px;
+    height: 800px;
+    width: 400px;
     /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
   transform: rotateY(-25deg) translateZ(-200px) translatex(-200px) scale(0.7);
   position: fixed;
-    font-size: 3em;
+    font-size: 2em;
+    font-family: Rubik;
+    
     background-color: rgba(255, 255, 255, 0.1);
     position: fixed;
    
     z-index: 1;
-    color: #fff;
-    animation: slide 2s 10;
+    color: #000000;
+    animation: slide 2s 1;
     animation-fill-mode: forwards
     /* perspective: 300px;
     perspective-origin: left 40%; */
     
+}
+#big-text2{
+    margin-left: 540px;
+    top: 600px;
+    height: 800px;
+    width: 400px;
+    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
+  transform: rotateY(-25deg) translateZ(-200px) translatex(-200px) scale(0.7);
+  position: fixed;
+    font-size: 2em;
+    font-family: Rubik;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+   
+    z-index: 1;
+    color: #000000;
+    animation: slide 2s 1;
+    animation-fill-mode: forwards
+}
+#big-text3{
+    margin-left: 540px;
+    top: 0px;
+    height: 800px;
+    width: 400px;
+    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
+  transform: rotateY(-25deg) translateZ(-200px) translatex(-200px) scale(0.7);
+  position: fixed;
+    font-size: 2em;
+    font-family: Rubik;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+   
+    z-index: 1;
+    color: #000000;
+    animation: slide2 2s 1;
+    animation-fill-mode: forwards
+}
+#big-text4{
+    margin-left: 540px;
+    top: 600px;
+    height: 800px;
+    width: 400px;
+    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
+  transform: rotateY(-25deg) translateZ(-200px) translatex(-200px) scale(0.7);
+  position: fixed;
+    font-size: 2em;
+    font-family: Rubik;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+   
+    z-index: 1;
+    color: #000000;
+    animation: slide2 1s 1;
+    animation-fill-mode: forwards
 }
 .swrap {
     perspective: 400px;/*was 300*/
     perspective-origin: left 85%;
     
     background: #111;
-    background: linear-gradient(to bottom, #a551f3,  #eeaf39, #111);
+    background: linear-gradient(to bottom, #a551f3,  #eeaf39, #09ebd4);
   
      width: 100%;
     height: 1200px;
@@ -60,20 +146,21 @@ body {
     
 }
 @keyframes slide {
-
-    0% {
-      
-        transform: rotateY(-25deg) translateZ(-200px) translateX(-400px) scale(0.7);
-      
+    0% {    
+        transform: rotateY(-25deg) translateZ(-200px) translateX(-700px) scale(0.7);     
     }
-
-    
-
-    100% {
-      
-        transform: rotateY(-25deg) translateZ(-200px) translateX(200px) scale(0.7);
+    100% {     
+        transform: rotateY(-25deg) translateZ(-200px) translateX(100px) scale(0.7);
       }
-  }  
+  } 
+  @keyframes slide2 {
+    0% {    
+        transform: rotateY(-25deg) translateZ(-200px) translateX(-700px) scale(0.7);     
+    }
+    100% {     
+        transform: rotateY(-25deg) translateZ(-200px) translateX(400px) scale(0.7);
+      }
+  }   
 @keyframes moveTest {
 
 	0% {
@@ -271,8 +358,8 @@ body {
     margin-left: 30%;
     margin-top: 1200px;
     right: 0;
-   /*  opacity: 0;
-    transition: opacity 0.5s ease; */
+    opacity: 1;
+    
    
    
 }
@@ -284,9 +371,9 @@ body {
     }
 }
 #introduction {
-    width: 90%;
+   /*  width: 90%;
     height: auto;
-    /* background: linear-gradient(to top, #05cce6, #111); */
+    
     background: #ffffff;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -297,7 +384,7 @@ body {
     border-top-left-radius: 1em;
     border-bottom-right-radius: 1em;
   
-   
+    */
     
    /*  background: linear-gradient(to right, #fff, #111); */
      

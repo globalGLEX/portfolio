@@ -5,9 +5,8 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!--         <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
- -->	<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="folio2.css" />
 		<meta name="viewport" content="width=device-width" />
 		<title>£folio2</title>
@@ -15,10 +14,38 @@
       
 	<body>
         <div id="big-text-wrap">
-            <div id="big-text">Big Text about one sentence long</div>
+            <div id="big-text"><div id="introduction">
+                <div class="introWrapper">
+                
+                <h1>Greetings</h1>
+                
+                <p>Projects below</p>
+                <p>github link</p>
+                
+                
+                </div>
+            </div></div>
+            <div id="big-text2"><div id="introduction">
+                <div class="introWrapper">
+                   <img src="arrows.svg" height="400" width="400">
+                </div>
+            </div></div>
+          <!--   <div id="big-text3"><div id="introduction">
+                
+            </div></div>
+            <div id="big-text4"><div id="introduction">
+                <div class="introWrapper">
+ 
+                </div>
+            </div></div> -->
         </div>
+        
 		<div class="swrap">
-            
+            <div id="logo">
+                <div id="txt1"><b>glo</b></div>
+                <div id="txt2"><b>bal</b></div>
+                <div id="txt3"><b>GLEX</b></div>
+            </div>
 		<div class="lightshow" id="lightshow">
 			<!-- <div class="mask1">ASD</div> -->
 			<div class="barTop">
@@ -71,17 +98,7 @@
                 });
         </script> -->
         <div id="content">
-            <div id="introduction">
-                <div class="introWrapper">
-                
-                <h1>Good to see you.</h1>
-                
-                <p>Will use this page as a basis for a new better designed one</p>
-                <p>github link</p>
-                <p>Cursor planets : github</p>
-                
-                </div>
-            </div>
+            
             <div class="sites">
                 <div class="card">
                     <img src="sparks3.png" alt="Sparks in THREE.js">
