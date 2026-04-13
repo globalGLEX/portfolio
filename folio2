@@ -278,7 +278,7 @@
     <script>
         const bars = document.querySelectorAll(".bar1");
         const lights = document.querySelectorAll(".barLightL, .barLightR");   
-        const colors = ["cyan", "red", "yellow", "orange", "white", "linear-gradient(to right, white 50%, 50%, fuchsia)", "lime", "deepskyblue", "linear-gradient(to right, white 50%, 50%, gold)", "papayawhip", "springgreen"];
+        const colors = ["cyan", "red", "gold", "orange", "white", "linear-gradient(to right, white 50%, 50%, fuchsia)", "lawngreen", "deepskyblue", "linear-gradient(to right, white 50%, 50%, gold)", "papayawhip", "springgreen"];
         console.log(bars);
             
       /*   for (let i = 0; i < bars.length; i++) {   */ 
