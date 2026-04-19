@@ -54,75 +54,109 @@ body {
    position: absolute;
    top: 0;
    left: 0;
-   perspective: 400px;/*was 300*/
+   perspective: 450px;/*was 300*/
    perspective-origin: left 85%;
    z-index: 1;
    width: 100%;
-   height: 1200px;
+   height: 1600px; /* must be same as swrap */
+   transform-style: preserve-3d
  
 
    
 }
 #big-text{
-    margin-left: 540px;
+    margin-left: 620px;
     top: 0px;
     height: 800px;
     width: 400px;
     /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
-  transform: rotateY(-25deg) translateZ(-200px) translatex(-200px) scale(1);
+  transform: rotateY(-25deg) translateZ(-200px) translatex(-200px) scale(0.7);
   position: fixed;
     font-size: 2em;
     font-family: Rubik;
     
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 1);
     position: fixed;
    
     z-index: 1;
     color: #000000;
-    animation: slide 2s 1;
-    animation-fill-mode: forwards
+    animation: slide 1.5s 1;
+    animation-fill-mode: forwards;
     /* perspective: 300px;
     perspective-origin: left 40%; */
+ 
     
 }
 #big-text2{
-    margin-left: 540px;
+    margin-left: 620px;
     top: 600px;
     height: 700px;
     width: 400px;
     /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
-  transform: rotateY(-25deg) translateZ(-200px) translatex(-200px) scale(0.7);
+  transform: rotateY(-25deg) translateZ(-200px) translatex(-300px) scale(0.7);
   position: fixed;
     font-size: 2em;
     font-family: Rubik;
     
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 1);
     position: fixed;
    
     z-index: 1;
     color: #000000;
-    animation: slide 2s 1;
+    animation: slide 1.9s 1;
     animation-fill-mode: forwards
 }
 #big-text3{
-    margin-left: 540px;
-    top: 0px;
-    height: 800px;
-    width: 400px;
-    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
-  transform: rotateY(-25deg) translateZ(-200px) translatex(-200px) scale(0.7);
-  position: fixed;
-    font-size: 2em;
-    font-family: Rubik;
     
-    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 2;
+    /* background: #333; */
+    height: 300px; 
+    width: 400px;
+    transform: rotateY(25deg) translateZ(-100px) scale(0.7);
     position: fixed;
-   
-    z-index: 1;
-    color: #000000;
-    animation: slide2 2s 1;
-    animation-fill-mode: forwards
+    margin-left: 438px;
+    margin-top: 1160px;
+    animation: glow 10s 1s infinite, fadeInOut 1s 1;;
+    opacity: 1;
+    color: #fff;
+    mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 5%,
+    black 95%,
+    transparent
+  );
+
+
 }
+
+@keyframes glow {
+	0% { 
+        background: #333;	  
+	}
+	3% {	  
+		background: #777;
+	  }
+    35% {	  
+		background: #666;
+	  }
+    40% {	  
+		background: #777;
+	  }
+    41% {	  
+		background: #555;
+	  }
+    48% {	  
+		background: #777;
+	  }
+    49% {	  
+		background: #888;
+	  }
+    80% {	  
+		background: #444;
+	  }
+  }
+ 
 #big-text4{
     margin-left: 540px;
     top: 600px;
@@ -143,20 +177,34 @@ body {
     animation-fill-mode: forwards
 }
 .swrap {
-    perspective: 400px;/*was 300*/
+    perspective: 450px;/*was 300*/
     perspective-origin: left 85%;
     
-    background: url(or4.jpg); /* 1 or 4 */
-    background-position: bottom left;
-/*     background: linear-gradient(to bottom, #a551f3,  #eeaf39, #09ebd4);
- */  
+   /*  background: url(or4.jpg);  */
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to bottom, #a551f3,  #f8c360 50%, #111 70%);
+  
      width: 100%;
-    height: 1200px;
+    height: 1600px;
     position: relative;
    
-  
-    
 }
+#pic {
+    position: absolute;
+    left:0;
+    z-index: 1;
+    opacity: 0.1;
+    
+ /*    animation:rotate 3s  infinite;
+animation-timing-function: cubic-bezier(1,0,.5,1); */
+}
+
+/* @keyframes rotate {
+    from { transform: rotate(0deg) } 
+    to { transform: rotate(360deg) } 
+} */
 @keyframes slide {
     0% {    
         transform: rotateY(-25deg) translateZ(-200px) translateX(-700px) scale(0.7);     
@@ -197,9 +245,19 @@ body {
   transform: rotateY(-25deg) translateZ(-100px) scale(0.7);
   position: fixed;
   animation: fadeInOut 1s 1;
-  
-  
-  
+ 
+}
+.lightshow2 {
+    background-color: transparent;
+    margin-left: 800px;
+    top: 0;
+    height: 700px;
+    width: 500px;
+    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
+  transform: rotateY(-25deg) translateX(-100px) translateZ(-100px) scale(0.7);
+  position: fixed;
+  animation: fadeInOut 1s 1;
+
 }
 /* @media screen and (max-width: 1300px){
     .lightshow {
@@ -215,31 +273,28 @@ body {
 
 	0% {
 	  
-	  opacity: 0.2;
+	  opacity: 0.0;
 	  
 	}
   
 	60% {
 	  
-	  opacity: 0;
+	  opacity: 0.10;
 	}
-    62% {
-	  
-        opacity: 0.2;
-      }
+    
 	95% {
 	  
 		opacity: 0.2;
 	  }
 	99% {
 	  
-		opacity: 0;
+		opacity: 0.5;
 	}
 	
 
 	100% {
 	  
-		opacity: 0.7;
+		opacity: 1;
 	  }
   }
 /* .lightshow p {
@@ -253,7 +308,7 @@ body {
     -webkit-text-stroke: 5px rgb(8, 6, 6);
 } */
  .shade {
-    background: linear-gradient(to bottom, #687172, #202020); /* #3b3b3b, #bead98 before */
+    background: linear-gradient(to bottom, #9facad, #202020); /* #3b3b3b, #bead98 before */
     height: 1980px; 
     width: 400px;
     transform: rotateY(25deg) translateZ(-100px) scale(0.7);
@@ -261,11 +316,13 @@ body {
     margin-left: 438px;
     margin-top: -192px;
     animation: fadeInOut 1s 1;
-    opacity: 0.7;
+    opacity: 1;
     color: #fff;
+
  
 
  }
+ 
 /*  @media screen and (max-width: 1300px){
     .shade {
     margin-left: 337px;
@@ -277,18 +334,19 @@ body {
     }
 }
 .mask1 {
-   /*  background: url(bg.jpg);
-    background-position: center center; */
+    background: url(longtreemask.png);
+    background-position: center center;
     position: absolute;
     margin-top: 0em;
-        z-index: 2;
+        z-index: 3;
         width: 300px;
         height: 250px;
+ 
        
     
 }
 /* .lightshow:first-of-type {
-    mask-image: url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg");
+    mask-image: url("longtreemask.png");
   
 } */
 .barLightL {
@@ -326,7 +384,7 @@ body {
     width: 100%;
     background-color: #333;
     height: 12px;
-    opacity: 0.4;
+    opacity: 0.7;
    /*  animation: side2side 2.9s ease-out 1s 500; */
     /* animation-delay: 0.5s; */
    
@@ -368,7 +426,7 @@ body {
    background-color: transparent;
     position: absolute;
     margin-left: 30%;
-    margin-top: 1200px;
+    margin-top: 1600px;
     right: 0;
     opacity: 1;
     
@@ -379,7 +437,7 @@ body {
 @media screen and (max-width: 1200px){
     #content {
         width: 100%;
-        margin-top: 1200px;
+        margin-top: 1600px;
     }
 }
 #introduction {
@@ -426,8 +484,9 @@ body {
  display: flex;
  flex-direction: row;
  border-bottom-right-radius: 1em;
-
+ opacity:0.8;
 /*  border: 1px #00eeee solid; */
+
 
 
  
@@ -458,9 +517,32 @@ body {
     border-bottom-right-radius: 1em;
   /*   border-top-right-radius: 1em;
     border-bottom-right-radius: 1em; */
+  /*   mask-image: url("longtransparent.png");
+    mask-size: 100% 100%;    
+    mask-repeat: no-repeat;
+    mask-position: center; 
+    -webkit-mask-image: url("longtransparent.png");
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat; */
+    
+ 
 }
 
-
+/* #test{
+    height: 1000px;
+    z-index: 90;
+    width: 600px;
+    background: blue;
+    color: #18ec3c;
+    font-size: 5em;
+     mask-image: url("longtransparent.png");
+    mask-size: 100% 100%;    
+    mask-repeat: no-repeat;
+    mask-position: center; 
+    -webkit-mask-image: url("longtransparent.png");
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat; 
+} */
 
 
 

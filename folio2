@@ -13,6 +13,7 @@
 	</head>
       
 	<body>
+        <!-- <img id="pic" src="stars.jpg"></img> -->
         <div id="big-text-wrap">
             <div id="big-text"><div id="introduction">
                 <div class="introWrapper">
@@ -30,9 +31,10 @@
                    <img src="arrows.svg" height="400" width="400">
                 </div>
             </div></div>
-          <!--   <div id="big-text3"><div id="introduction">
+           <!--  <div id="big-text3">dsdsd</div> -->
+                <!-- <div id="introduction">
                 
-            </div></div>
+            </div>
             <div id="big-text4"><div id="introduction">
                 <div class="introWrapper">
  
@@ -78,11 +80,39 @@
                 const container = document.getElementById('shade');
                 container.innerHTML += '<div class="bar1"></div>';
               }</script>
-             <script>for (let i = 0; i < 75; i++) {
+             <!-- <script>for (let i = 0; i < 75; i++) {
                 const container = document.getElementById('shade');
                 container.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
-              }</script>
+              }</script> -->
         </div>
+        <div id="big-text3"></div>
+       
+
+        <div class="lightshow2" id="lightshow2">
+			<!-- <div class="mask1">ASD</div> -->
+			<div class="barTop">
+                <div class="barLightL"> </div>
+               <!--  <div class="barFiller"> </div> -->
+                <div class="barLightR"> </div>
+            </div>
+            <script>for (let i = 0; i < 20; i++) {
+                const container = document.getElementById('lightshow2');
+                container.innerHTML += '<div class="bar1"></div>';
+              }</script>
+
+             <script>
+             const container2 = document.getElementById('lightshow2');
+             for (let i = 0; i < 93; i++) {
+                
+                container2.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
+              }
+              //container.innerHTML += '<div class="bar3"><p>Testing some screens</p><p>Scroll down</p></div>';
+              </script>
+ 
+
+
+		</div>
+        
         <!-- <script>
             window.addEventListener('scroll', () => {
                 const div = document.getElementById('introduction');
@@ -100,6 +130,7 @@
         <div id="content">
             
             <div class="sites">
+               <!--  <div id="test">dsdsd</div> -->
                 <div class="card">
                     <img src="sparks3.png" alt="Sparks in THREE.js">
                     <div class="txtWrapper">
