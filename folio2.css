@@ -23,8 +23,8 @@ body {
     z-index: 100;
 }
 #logo{
-    margin-left: 540px;
-    top: -40px;
+    margin-left: 530px;
+    top: -60px;
     height: 100px;
     width: 200px;
     /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
@@ -112,18 +112,19 @@ body {
     /* background: #333; */
     height: 300px; 
     width: 400px;
+    will-change: transform;
     transform: rotateY(25deg) translateZ(-100px) scale(0.7);
     position: fixed;
     margin-left: 438px;
     margin-top: 1160px;
-    animation: glow 10s 1s infinite, fadeInOut 1s 1;;
+    animation: glow 10s 1s infinite, fadeInOut 1s 1;
     opacity: 1;
     color: #fff;
     mask-image: linear-gradient(
     to bottom,
     transparent,
-    black 5%,
-    black 95%,
+    black 15%,
+    black 85%,
     transparent
   );
 
@@ -135,22 +136,28 @@ body {
         background: #333;	  
 	}
 	3% {	  
-		background: #777;
-	  }
-    35% {	  
 		background: #666;
 	  }
-    40% {	  
-		background: #777;
-	  }
-    41% {	  
+    35% {	  
 		background: #555;
 	  }
+    40% {	  
+		background: #666;
+	  }
+    41% {	  
+		background: #444;
+	  }
     48% {	  
-		background: #777;
+		background: #666;
 	  }
     49% {	  
-		background: #888;
+		background: #777;
+	  }
+    60% {	  
+		background: #444;
+	  }
+    65% {	  
+		background: #777;
 	  }
     80% {	  
 		background: #444;
@@ -180,11 +187,14 @@ body {
     perspective: 450px;/*was 300*/
     perspective-origin: left 85%;
     
-   /*  background: url(or4.jpg);  */
+ /*    background: url(longtree.jpg); 
+    background-position: bottom center;
+    background-repeat: no-repeat; */
+
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(to bottom, #a551f3,  #f8c360 50%, #111 70%);
+    background: linear-gradient(to bottom, #a551f3,  #f8c360 50%, #06131b 80%);
   
      width: 100%;
     height: 1600px;
@@ -250,7 +260,7 @@ animation-timing-function: cubic-bezier(1,0,.5,1); */
 .lightshow2 {
     background-color: transparent;
     margin-left: 800px;
-    top: 0;
+    top: 8px;
     height: 700px;
     width: 500px;
     /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
@@ -308,12 +318,12 @@ animation-timing-function: cubic-bezier(1,0,.5,1); */
     -webkit-text-stroke: 5px rgb(8, 6, 6);
 } */
  .shade {
-    background: linear-gradient(to bottom, #9facad, #202020); /* #3b3b3b, #bead98 before */
-    height: 1980px; 
+    background: linear-gradient(to bottom, #6a7070, #202020); /* #3b3b3b, #bead98 before */
+    height: 1990px; 
     width: 400px;
     transform: rotateY(25deg) translateZ(-100px) scale(0.7);
     position: fixed;
-    margin-left: 438px;
+    margin-left: 439px;
     margin-top: -192px;
     animation: fadeInOut 1s 1;
     opacity: 1;
@@ -351,12 +361,12 @@ animation-timing-function: cubic-bezier(1,0,.5,1); */
 } */
 .barLightL {
     width: 2%;
-    /* background-color: #fd0404; */
-    height: 8px;
+    background-color: #fd0404;
+    height: 10px;
     float: left;
     margin-top: -0px;
     animation-name: blink;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     animation-iteration-count: infinite;
     
     
@@ -365,15 +375,31 @@ animation-timing-function: cubic-bezier(1,0,.5,1); */
 .barLightR {
     width: 2%;
     background-color: #fd0404;
-    height: 8px;
+    height: 10px;
     float: right;
     margin-top: -0px;
     animation-name: blink;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     animation-iteration-count: infinite;
+    z-index: 5;
+    opacity: 1;
     
 }
+.barTop {
+    background: #5bfff1;
+    height: 11px;
+}
+#barTopContainer {
+    margin-left: 800px;
+    top: 0;
+    height: 700px;
+    width: 500px;
+    /* transform: rotateY(20deg) rotateX(0deg) rotateZ(0deg); */
+  transform: rotateY(-25deg) translateX(-100px) translateZ(-100px) scale(0.7);
+  position: fixed;
+  animation: fadeInOut 1s 1;
 
+}
 /* .barFiller {
     width: 80%;
     background-color: #057c23;
@@ -548,16 +574,19 @@ animation-timing-function: cubic-bezier(1,0,.5,1); */
 
 @keyframes blink {
     0% { 
-        background-color: #444;
+        background-color: #999;
        /*  top: 50%;
         left: 45%; */
     }
+    30% { 
+        background-color: red;
+    }
 
-    80% { 
-        background-color: #444;
+    60% { 
+        background-color: red;
     }
     100% {
-        background-color: red;
+        background-color: #999;
     }
 }
 @keyframes bounce {
