@@ -41,8 +41,11 @@
                 </div>
             </div></div> -->
     </div>
-        
+    <div class="txt-tilt"> <p>tilted text</p>
+        <p>tilted text</p>
+        </div>  
 	<div class="swrap">
+            
             <div id="logo">
                 <div id="txt1"><b>glo</b></div>
                 <div id="txt2"><b>bal</b></div>
