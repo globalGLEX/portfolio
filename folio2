@@ -6,8 +6,8 @@
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="folio2.css" />
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Contrail+One&family=Oxanium:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="folio2.css" />
 		<meta name="viewport" content="width=device-width" />
 		<title>£folio2</title>
 	</head>
@@ -18,7 +18,7 @@
             <div id="big-text"><div id="introduction">
                 <div class="introWrapper">
                 
-                <h1>Greetings</h1>
+                <h2>Greetings</h2>
                 
                 <p>Projects below</p>
                 <p>github link</p>
@@ -26,11 +26,11 @@
                 
                 </div>
             </div></div>
-            <div id="big-text2"><div id="introduction">
+      <!--       <div id="big-text2"><div id="introduction">
                 <div class="introWrapper">
                    <img src="arrows.svg" height="400" width="400">
                 </div>
-            </div></div>
+            </div></div> -->
            <!--  <div id="big-text3">dsdsd</div> -->
                 <!-- <div id="introduction">
                 
@@ -41,10 +41,13 @@
                 </div>
             </div></div> -->
     </div>
-    <div class="txt-tilt"> <p>tilted text</p>
-        <p>tilted text</p>
-        </div>  
+   <!--  <div class="txt-tilt"> <p>React - Express - SQLite </br>
+        CSS - ThreeJS </p>
+        </div>   -->
 	<div class="swrap">
+        <div class="txt-tilt"> <p>React Express SQLite </br>
+            CSS ThreeJS </p>
+            </div>
             
             <div id="logo">
                 <div id="txt1"><b>glo</b></div>
@@ -113,14 +116,14 @@
 
         <script>
              
-            for (let i = 0; i < 20; i++) {
+            for (let i = 0; i < 60; i++) { //20
                 const container2 = document.getElementById('lightshow2');
                 container2.innerHTML += '<div class="bar1"></div>';
             } 
         </script>
         <script>   
              
-            for (let i = 0; i < 93; i++) {
+            for (let i = 0; i < 68; i++) { //93
                 const container2 = document.getElementById('lightshow2');   
                 container2.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
             }
