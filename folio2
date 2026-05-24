@@ -9,49 +9,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Contrail+One&family=Oxanium:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="folio2.css" />
 		<meta name="viewport" content="width=device-width" />
-		<title>£folio2</title>
+		<title>CSS Skyscraper</title>
 	</head>
       
 	<body>
-        <!-- <img id="pic" src="stars.jpg"></img> -->
-        <div id="big-text-wrap">
-            <div id="big-text"><div id="introduction">
-                <div class="introWrapper">
-                
-                <h2>Greetings</h2>
-                
-                <p>Projects below</p>
-                <p>github link</p>
-                
-                
-                </div>
-            </div></div>
-      <!--       <div id="big-text2"><div id="introduction">
-                <div class="introWrapper">
-                   <img src="arrows.svg" height="400" width="400">
-                </div>
-            </div></div> -->
-           <!--  <div id="big-text3">dsdsd</div> -->
-                <!-- <div id="introduction">
-                
-            </div>
-            <div id="big-text4"><div id="introduction">
-                <div class="introWrapper">
- 
-                </div>
-            </div></div> -->
-    </div>
-   <!--  <div class="txt-tilt"> <p>React - Express - SQLite </br>
-        CSS - ThreeJS </p>
-        </div>   -->
+        
 	<div class="swrap">
-        <div class="dark-top-swrap"></div>
-        <div class="moonR"> <img src="mooncropR.png"></div>
-        <div class="moonG"> <img src="mooncropG.png"></div>
-        <div class="moonB"> <img src="mooncropB.png"></div>
-        <div class="txt-tilt"> <p>React Express SQLite </br>
-            CSS ThreeJS </p>
-            </div>
+        
             
             <div id="logo">
                 <div id="txt1"><b>glo</b></div>
@@ -79,7 +43,7 @@
                 
                 container.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
               }
-              //container.innerHTML += '<div class="bar3"><p>Testing some screens</p><p>Scroll down</p></div>';
+              
               </script>
  
 
@@ -100,106 +64,14 @@
                 container.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
               }</script> -->
         </div>
-        <div id="big-text3"></div>
-        <div id="barTopContainer"></div>
-        <script>
+      
+        <!-- <script>
             const containerx = document.getElementById('barTopContainer');
             const barTop = document.createElement('div');
         barTop.className = 'barTop';
         barTop.innerHTML = '<div class="barLightL"></div><div class="barLightR"></div>';
         containerx.appendChild(barTop);
-        </script>
-
-        <div class="lightshow2" id="lightshow2">
-			<!-- <div class="mask1">ASD</div> -->
-			<!-- <div class="barTop">
-                <div class="barLightL"> </div>
-    
-                <div class="barLightR"> </div>
-            </div> -->
-
-        <script>
-             
-            for (let i = 0; i < 60; i++) { //20
-                const container2 = document.getElementById('lightshow2');
-                container2.innerHTML += '<div class="bar1"></div>';
-            } 
-        </script>
-        <script>   
-             
-            for (let i = 0; i < 68; i++) { //93
-                const container2 = document.getElementById('lightshow2');   
-                container2.innerHTML += '<div class="bar1"></div><div class="bar2"></div>';
-            }
-            //container.innerHTML += '<div class="bar3"><p>Testing some screens</p><p>Scroll down</p></div>';
-        </script>
- 
-
-
-		</div>
-  
-        
-        <!-- <script>
-            window.addEventListener('scroll', () => {
-                const div = document.getElementById('introduction');
-                const div2 = document.getElementById('content');
-                if (window.scrollY > 200) {  // change 300 to your x pixels
-                    div2.style.opacity = '1';
-                } else if (window.scrollY > 100){
-                    div.style.opacity = '1';
-                }else{
-                    div.style.opacity = '0';
-                    div2.style.opacity = '0';
-                }
-                });
         </script> -->
-        <div id="content">
-            
-            <div class="sites">
-               <!--  <div id="test">dsdsd</div> -->
-                <div class="card">
-                    <img src="sparks3.png" alt="Sparks in THREE.js">
-                    <div class="txtWrapper">
-                    <h2>Sparks</h2>
-                    <p>JS sparks using THREE.js</p>
-                    <p>JS sparks using THREE.js</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="fruits1.png" alt="Sparks in THREE.js">
-                    <div class="txtWrapper">
-                        <h2>Sparks</h2>
-                    <p>JS sparks using THREE.js</p>
-                    <p>JS sparks using THREE.js</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="bad1.png" alt="Sparks in THREE.js">
-                    <div class="txtWrapper">
-                        <h2>Sparks</h2>
-                    <p>JS sparks using THREE.js</p>
-                    <p>JS sparks using THREE.js</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="avds_overview2-min.png" alt="Sparks in THREE.js">
-                    <div class="txtWrapper">
-                    <p>Sparks</p>
-                    <p>JS sparks using THREE.js</p>
-                    <p>JS sparks using THREE.js</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="sparks3.png" alt="Sparks in THREE.js">
-                    <div class="txtWrapper">
-                        <h2>Sparks</h2>
-                    <p>JS sparks using THREE.js</p>
-                    <p>JS sparks using THREE.js</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </div>
     
     <canvas id="planets" width="250" height="250" style="transform:rotateZ(-35deg);">
@@ -317,7 +189,7 @@
       
           }, 1000 / fps);
       }
-      //animate();
+      animate();
       
           
           
@@ -337,16 +209,7 @@
         const lights = document.querySelectorAll(".barLightL, .barLightR");   
         const colors = ["cyan", "red", "gold", "orange", "white", "linear-gradient(to right, white 50%, 50%, fuchsia)", "lawngreen", "deepskyblue", "linear-gradient(to right, white 50%, 50%, gold)", "papayawhip", "springgreen"];
         console.log(bars);
-            
-      /*   for (let i = 0; i < bars.length; i++) {   */ 
-            /* bars[i].style['background']  = 'red'; */
 
-        /* while  {
-            lights[0].style['background']  = 'black';
-            setTimeout(() => {
-                lights[0].style['background']  = 'red';
-            }, 1000);
-        } */
     const firstFunc =() => {
         
             bars.forEach((element,i) => {
@@ -354,8 +217,7 @@
                 bars[i].style['background']  = "linear-gradient(to right, white 50%, 50%, turquoise)";
             }, i*50);
            
-        });
-        
+        });       
     
     }
     const secondFunc = () => {
@@ -383,30 +245,10 @@
         
        
     }  
- /*    const show = async () => {
-        console.log("show start")
-        await firstFunc();
-        console.log("func done?")
-        secondFunc();
-    }  
-    show();
-            */
-       
-        /* } */
-    
-   /*  firstFunc();
-    secondFunc(); */
-/*     for (let i = 0; i < 9; i++) {
-        firstFunc();
-        secondFunc();
-}   */
+
 firstFunc(); 
 secondFunc();
-/* setInterval(() => {
-    
-    secondFunc();
-        }, 1000); */
-    
+
     </script>
 
 </html>
