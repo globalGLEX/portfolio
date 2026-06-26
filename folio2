@@ -18,9 +18,9 @@
         
             
             <div id="logo">
-                <div id="txt1"><b>glo</b></div>
-                <div id="txt2"><b>bal</b></div>
-                <div id="txt3"><b>GLEX</b></div>
+                <div id="logo-txt1"><b>glo</b></div>
+                <div id="logo-txt2"><b>bal</b></div>
+                <div id="logo-txt3"><b>GLEX</b></div>
             </div>
 		<div class="lightshow" id="lightshow">
 			<!-- <div class="mask1">ASD</div> -->
@@ -34,9 +34,7 @@
                 container.innerHTML += '<div class="bar1"></div>';
               }</script>
 	
-            <div class="barLightL"> </div>
-            <!--  <div class="barFiller"> </div> -->
-             <div class="barLightR"> </div>
+            
              <script>
              const container = document.getElementById('lightshow');
              for (let i = 0; i < 75; i++) {
