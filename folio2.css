@@ -37,10 +37,13 @@ body {
     display: flex;
     z-index: 1;
     color: #fff;
+  
+    
 }
 #logo-txt1, #logo-txt2, #logo-txt3{
     color:white;
     text-shadow: 2px 2px 3px black;
+    animation: fadeInOut 1s 1;
 }
 
 .swrap {
@@ -75,7 +78,7 @@ body {
 
 @media screen and (max-width: 800px){
     .swrap {
-    margin-left: 5%;
+    margin-left: 3%;
     }
 }
 @keyframes fadeInOut {
@@ -91,9 +94,17 @@ body {
 	  opacity: 0.10;
 	}
     
-	95% {
+    80% {
 	  
 		opacity: 0.2;
+	  }
+    85% {
+	  
+		opacity: 0.5;
+	  }
+	95% {
+	  
+		opacity: 0.05;
 	  }
 	99% {
 	  
